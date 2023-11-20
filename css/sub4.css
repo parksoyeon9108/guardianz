@@ -541,6 +541,10 @@ form {
 
 /* text_flow */
 
+.swiper-wrapper {
+    background-color: transparent;
+}
+
 .animated-title {
     height: 100%;
     font-size: 90px;
@@ -556,6 +560,7 @@ form {
     white-space: nowrap;
     will-change: transform;
     animation: marquee 80s linear infinite;
+background-color: transparent;
 }
 
 @keyframes marquee {
