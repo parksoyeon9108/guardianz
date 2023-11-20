@@ -1,0 +1,179 @@
+/* pop_up_s */
+
+#popup_wrap {
+    display: none;
+}
+
+#popup_open{
+    cursor: pointer;
+}
+
+#popup .login img {
+    display: block;
+}
+
+#popup_wrap{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    text-align: center;
+}
+
+#popup{
+    width: 800px;
+    height: 500px;
+    background-color: #fff;
+    box-sizing: border-box;
+    display: inline-block;
+    margin-top: 80px;
+}
+
+#popup input {
+    display: block;
+    font-size: 13px;
+    width: 266px;
+    height: 34px;
+    border: 1px solid #9d9d9d;
+}
+
+#popup input::placeholder{
+    color: #aeaeae;
+}
+
+#popup div {
+    float: left;
+}
+
+.login_img {
+    width: 465px;
+}
+
+.login_text {
+    height: 500px;
+    width: 335px;
+    position: relative;
+}
+
+.login_text {
+padding: 30px 30px 30px 30px;
+box-sizing: border-box;
+}
+
+.login_text h3 {
+    color: #8CA8D8;
+    font-size: 28px;
+    line-height: 1.5em;
+    font-family: 'Happiness-Sans-Title';
+    margin: 10px 0 23px;
+}
+
+.login_text span {
+    padding-top: 3px;
+font-size: 40px;
+}
+
+.login_ment {
+    font-size: 13px;
+    font-weight: 600;
+    color: #686868;
+    margin-bottom: 15px;
+}
+
+.login_start {
+    padding-left: 10px;
+    margin: 15px 0 0;
+}
+
+#popup .radio {
+    width: 14px;
+    cursor: pointer;
+}
+
+#popup form {
+    display: flex;
+    align-items: center;
+}
+
+.check_box {
+    padding-top: 3px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+}
+
+.check_box_form > p {
+    padding: 0 0 1px 3px;
+    font-size: 13px;
+    color: #696868;
+}
+
+.check_box_password {
+    font-size: 11px;
+    text-decoration: underline;
+    color: rgb(125, 125, 125);
+    padding-bottom: 5px;
+}
+
+.kakao_login {
+    text-align: center;
+    padding: 25px 0 23px;
+    font-size: 12px;
+    line-height: 1.4em;
+    color: #6e6e6e;
+    width: 100%;
+}
+
+.kakao_login > p {
+    display: inline-block;
+}
+
+.kakao_box {
+    width: 100%;
+    padding: 10px 0;
+    background-color: #FEE500;
+    font-size: 15px;
+    color: #191600;
+    font-weight: 600;
+    margin: 15px 0 0;
+}
+
+.kakao_box:hover {
+    background-color: rgb(254, 212, 0);
+    transition: all .5s;
+}
+
+.sign_up {
+    margin-top: 10px;
+    width: 100%;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.sign_up_btn {
+    padding-left: 4px;
+    color: #8CA8D8;
+    font-weight: 600;
+}
+
+#close_popup{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    border: none;
+    display: inline-block;
+    padding: 10px;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+#close_popup:hover {
+    transition: all .5s;
+}
+
+/* pop up_f */

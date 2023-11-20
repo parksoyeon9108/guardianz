@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1380">
+    <title>투명하고 정직한 단체 - 가디언즈</title>
+    <!-- favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/logo_img.svg">
+    <!-- webfont -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/popup.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!--count_event-->
+    <script src="js/jquery-latest.min.js"></script>
+    <script>
+        jQuery(document).ready(function ($) {
+            $('.counter').counterUp({
+                delay: 10,
+                time: 1000
+            });
+        });
+    </script> <!--count_event_f-->
+</head>
+
+<body>
+    <div id="world_background_wrap">
+        <div id="wrap">
+            <div id="header">
+                <div class="inner_header">
+                    <ul class="top">
+                        <li>
+                            <img class="dark_ver" src="./images/main/1_top/icon_dark_magnifier.svg"
+                                    alt="magnifier">
+                            <img class="white_ver" src="./images/main/1_top/icon_white_magnifier.svg"
+                                    alt="magnifier">
+                        </li>
+                        <li>마이가디언즈</li>
+                        <li>로그인</li>
+                        <li>회원가입</li>
+                        <li>기부금 영수증</li>
+                    </ul> <!--top_f-->
+
+
+                    <!-- popup -->
+                    <div id="popup_wrap">
+                        <div id="popup">
+                            <div class="login_img">
+                                <img src="./images/popup/login.svg" alt="login">
+                            </div>
+                            <div class="login_text">
+                                <h3>Welcome to <br>
+                                    <span>가디언즈</span>
+                                </h3>
+                                <p class="login_ment">로그인후 지금 바로 서비스 이용을 해보세요</p>
+                                <input class="login_start" type="text" placeholder="이메일을 입력하세요">
+                                <input class="login_start" type="text" placeholder="비밀번호를 입력하세요">
+
+                                <div class="check_box">
+                                    <form action="" class="check_box_form">
+                                        <input type="radio" name="agree" class="radio">
+                                        <p>로그인 유지</p>
+                                    </form>
+                                    <p class="check_box_password"><a href="#">비밀번호 찾기</a></p>
+                                </div>
+                                <div class="kakao_login">
+                                    <p>계정과 비밀번호 없이 <br>
+                                        카카오톡으로 로그인 해보세요</p>
+                                    <div class="kakao_box">
+                                        <p><a href="#">카카오로 시작하기</a></p>
+                                    </div>
+                                </div>
+                                <div class="sign_up">
+                                    <p>아이디가 없으신가요?</p>
+                                    <p class="sign_up_btn"><a href="#">회원가입</a></p>
+                                </div>
+                        <button id="close_popup"><img src="./images/popup/close.svg" alt="close"></button>
+                            </div>
+                        
+                        </div>
+
+                    </div> <!--popup_wrap_f-->
+
+
+
+                    <div class="gnb_box">
+                        <h1 class="main_logo">
+                            <a href="./index.html">
+                                <img class="color_logo" src="./images/main/2_header/logo/color_logo.svg" alt="logo">
+                                <img class="white_logo" src="./images/main/2_header/logo/white_logo.svg" alt="logo">
+                            </a>
+                        </h1>
+                        <ul class="gnb">
+                            <li><a href="./sub1_.guardianz.html">가디언즈</a></li>
+                            <li><a href="./sub2_donation.html">후원안내</a></li>
+                            <li><a href="./sub3_Participation.html">참여</a></li>
+                            <li><a href="./sub4_news.html">소식</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div> <!--header_f-->
+
+            <div id="banner"> <!--banner_s-->
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="./images/main/3_banner/banner1_three_sisters.jpg" alt="banner1_three_sisters">
+                            <div class="banner1 text_box">
+                                <h2 class="brown_shadow">웃음꽃이 가득한 세자매를 지켜주세요</h2>
+                                <p class="brown_shadow">세자매를 후원해주시면 가디언즈의 <br>
+                                    로고가 새겨져 있는 버킷햇을 선물로 드립니다</p>
+                                <button><a href="./sub4_news.html">자세히 보기</a></button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/main/3_banner/banner2_heritage_donation.jpg"
+                                alt="banner2_heritage_donation">
+                            <div class="banner2 text_box">
+                                <h2 class="yellowgreen_shadow">가디언즈 유산기부</h2>
+                                <h3>내 인생을 영원히 빛내줄
+                                    고귀한 약속</h3>
+                                <p class="yellowgreen_shadow">나눔으로 기억되는 세상에서 가장 아름다운 기부 <br>
+                                    나눔은 떠난 뒤에 시작되지만 나눔의 기쁨은 지금부터 시작됩니다</p>
+                                <button><a href="./sub2_donation.html">자세히 보기</a></button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/main/3_banner/banner3_concert.jpg" alt="banner3_concert">
+                            <div class="banner3 text_box">
+                                <div class="img_box">
+                                    <img class="gold_line" src="./images/main/3_banner/gold_line.svg" alt="gold_line">
+                                </div>
+                                <p class="gold_font">전세계 소외된 이들을 위한 나눔 콘서트</p>
+                                <h2 class="navy_shadow emphasis">가디언즈 오케스트라</h2>
+                                <p class="sub_ment">꿈을 잃은 우리의 이웃들에게 나눔을 선사하세요!</p>
+                                <p class="navy_shadow date">일시<span>2023.12.24 PM 7:00</span></p>
+                                <p class="navy_shadow time">장소<span>KBS 울산홀</span></p>
+                                <button><a href="./sub4_news.html">자세히 보기</a></button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/main/3_banner/banner4_wristlet_band.jpg" alt="wristlet_band">
+                            <div class="banner4 text_box">
+                                <h2 class="skyblue_shadow font_adjust">지금 가디언즈 팀에
+                                    합류하세요
+                                </h2>
+                                <p class="skyblue_shadow">이번 캠페인을 통해 정기후원을 시작하신 분께는 <br>
+                                    가디언즈 팀의 상징 가디언즈 팔찌가 전달됩니다.</p>
+                                <button><a href="./sub2_donation.html">자세히 보기</a></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div> <!--banner_f-->
+
+            <div id="container"> <!--container_s-->
+                <div class="intro"> <!--intro_s-->
+                    <div class="left_box" data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                        <a href="#"><img src="./images/main/4_container/0_intro/children_picture/left_posotion.svg"
+                                alt="children_picture1"></a>
+                        <a href="./sub2_donation.html">자세히 알아보기</a>
+                        <h3>우간다에서 만난 아이</h3>
+                        <p>후원자 분들의 마음이 모여 전 세계 곳곳에 <br>
+                            희망을 심어주고 있습니다</p>
+                    </div>
+                    <div class="middle_box" data-aos="fade-up" data-aos-duration="2000"><strong>정직한 사람들이 <br> 만드는 <br>
+                            정직한
+                            세상</strong>
+                        <span>전 세계 어려운 이웃을 위한 가디언즈의 기적은 <br>
+                            투명한 경영과 마르지 않는 도움의 손길로 완성됩니다</span>
+                    </div>
+                    <div class="right_box" data-aos="fade-left" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                        <a href="#"><img src="./images/main/4_container/0_intro/children_picture/right_position.svg"
+                                alt="children_picture2"></a>
+                        <a href="./sub2_donation.html">자세히 알아보기</a>
+                        <h3>가디언즈의 후원금으로</h3>
+                        <p>후원자 분들의 마음이 모여 아이들은 꿈을 키워 봅니다</p>
+                    </div>
+                    <ul class="scroll_icon">
+                        <li><img src="./images/main/4_container/0_intro/scroll_down/text.svg" alt="scroll_down_text">
+                        </li>
+                        <li class="onoff"><img src="./images/main/4_container/0_intro/scroll_down/on.svg"
+                                alt="scroll_down"></li>
+                        <li class="onoff"><img src="./images/main/4_container/0_intro/scroll_down/on.svg"
+                                alt="scroll_down"></li>
+                        <li class="onoff"><img src="./images/main/4_container/0_intro/scroll_down/on.svg"
+                                alt="scroll_down"></li>
+                    </ul>
+                </div><!--intro_f-->
+                <div class="section1"> <!--section1_s-->
+                    <p class="text1">세상 가장 낮은 곳을 향해 당신의 손을 뻗어 주세요</p>
+                    <h2>당신으로 <span>세계는 하나</span>가 됩니다</h2>
+                    <p class="text2">모두에게 행복한 내일을, <br>
+                        후원자에겐 나누는 즐거움을 주는 다양한 활동을 펼치고 있습니다.</p>
+
+                    <ul class="count1">
+                        <li>
+                            <h3><span class="counter">33</span>년</h3>1991년 문을 연 가디언즈의 역사
+                        </li>
+                        <li>
+                            <h3><span class="counter">55</span>만명</h3>마음을 나누어주신 든든한 후원자
+                        </li>
+                        <li>
+                            <h3><span class="counter">191</span>만명</h3>가디언즈가 지킨 우리의 이웃
+                        </li>
+                    </ul>
+
+                    
+                    <div id="video_wrap">
+                        <video muted="" preload="true" loop autoplay webkit-playsinline="webkit-playsinline" playsinline="playsinline">
+                            <source src="./media/guardianz_media.mp4" type="video/mp4">
+                        </video>
+                    </div>
+
+
+                    
+                </div> <!--section1_f-->
+
+                <div class="section2"> <!--section2_s-->
+                    <div class="donation"> <!--donation_s-->
+                        <div class="selection">
+                            <select name="suppotTeam" id="supportTeam">
+                                <option value="">정기</option>
+                                <option value="">일시</option>
+                            </select>
+                        </div>
+                        <div>
+                            <div class="middle_suppot">
+                                <div class="won-buttons">
+                                    <button class="button1 pressed">10,000원</button>
+                                    <button class="button2">30,000원</button>
+                                    <button class="button3">50,000원</button>
+                                    <button class="button4">100,000원</button>
+                                </div>
+                                <div class="text_wrap">
+                                    <strong class="suppot_text1">월&nbsp;<span>10,000원</span>이면, 굶고 있는 이웃들을 위해 <span>도시락
+                                            90개</span>를 지원할
+                                        수 있습니다.</strong>
+                                    <strong class="suppot_text2">월&nbsp;<span>30,000원</span>이면, 전 세계 이웃들을 위해
+                                        <span>구강수분보충염
+                                            1,200봉</span>를 지원할 수 있습니다.</strong>
+                                    <strong class="suppot_text3">월&nbsp;<span>50,000원</span>이면, 굶고 있는 이웃들을 위해 <span>홍역
+                                            예방백신
+                                            1,000회</span>를 지원할 수 있습니다.</strong>
+                                    <strong class="suppot_text4">월&nbsp;<span>100,000원</span>이면, 다양한 위기로 어려움을 겪는
+                                        <span>모든
+                                            가정과 복지
+                                            증진</span>을 위하여 쓰일 수 있습니다.</strong>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="submit"> <button><a href="./sub2_donation.html">후원하기</a></button> </div>
+                    </div> <!--donation_f-->
+                </div> <!--section2_f-->
+
+                <div class="section3_wrap"> <!--section3_wrap_s-->
+                    <div class="section3"> <!--section3_s-->
+                        <h2>가디언즈 <span>캠페인</span></h2>
+                        <p>현재 가디언즈에서 진행중인 캠페인을 알아보세요</p>
+                        <div class="more_btn_wrap">
+                            <a href="./sub4_news.html" class="more">
+                                <h4>더보기</h4>
+                                <img class="right_btn"
+                                    src="./images/main/4_container/3_section3/campaign/icon_chevron_right.svg"
+                                    alt="icon_chevron_right">
+                            </a>
+                        </div>
+                        <ul class="sec3_campaign">
+                            <li>
+                                <a href="#">
+                                    <div class="campaign_img_wrap">
+                                        <img src="./images/main/4_container/3_section3/campaign/item_wrist bracelet.jpg"
+                                            alt="item_wrist bracelet">
+                                    </div>
+                                    <strong>지금 바로 가디언즈 팀에 합류하세요</strong>
+                                    <p>가디언즈팀에 합류하면 가디언즈 팔찌를 드립니다.</p>
+                                    <div class="p_wrap">
+                                        <p>회원가입 캠페인</p>
+                                        <p class="path"></p>
+                                    </div>
+
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="campaign_img_wrap">
+                                        <img src="./images/main/4_container/3_section3/campaign/item_dairy.jpg"
+                                            alt="item_dairy">
+                                    </div>
+                                    <strong>가디언즈의 30주년을 축하해주세요</strong>
+                                    <p>가디언즈의 30주년을 축하해주시면 추첨을 통해
+                                        다이어리를 드립니다.</p>
+                                    <div class="p_wrap">
+                                        <p>30주년 캠페인</p>
+                                        <p class="path"></p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="campaign_img_wrap">
+                                        <img src="./images/main/4_container/3_section3/campaign/item_clock.jpg"
+                                            alt="item_clock">
+                                    </div>
+                                    <strong>지금은 가디언시</strong>
+                                    <p>가디언즈의 시간은 무엇보다 소중합니다.
+                                        퀴즈를 맞추는 후원자에게 시계를 보내드립니다.
+                                    </p>
+                                    <div class="p_wrap">
+                                        <p>캠페인</p>
+                                        <p class="path"></p>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="index_sponsor">
+                            <h2>가디언즈와 함께하는<span>후원단체</span></h2>
+                            <p>현재 가디언즈와 함께하는 착한 기업&middot;기관</p>
+                        </div>
+                    </div> <!--section3_f-->
+
+                    <div id="text">
+                        <div class="animated-title">
+                            <div class="track">
+                                <div class="content">
+                                    <img src="./images/main/4_container/3_section3/supporting_organization_logo/logo_1.svg"
+                                        alt="logo_1">
+                                    <img src="./images/main/4_container/3_section3/supporting_organization_logo/logo_2.svg"
+                                        alt="logo_2">
+                                    <img src="./images/main/4_container/3_section3/supporting_organization_logo/logo_3.svg"
+                                        alt="logo_3">
+                                    <img src="./images/main/4_container/3_section3/supporting_organization_logo/logo_4.svg"
+                                        alt="logo_4">
+                                    <img src="./images/main/4_container/3_section3/supporting_organization_logo/logo_5.svg"
+                                        alt="logo_5">
+                                    <img src="./images/main/4_container/3_section3/supporting_organization_logo/logo_6.svg"
+                                        alt="logo_6">
+                                    <img src="./images/main/4_container/3_section3/supporting_organization_logo/logo_7.svg"
+                                        alt="logo_7">
+                                    <img src="./images/main/4_container/3_section3/supporting_organization_logo/logo_8.svg"
+                                        alt="logo_8">
+                                    <img src="./images/main/4_container/3_section3/supporting_organization_logo/logo_9.svg"
+                                        alt="logo_9">
+                                    <img src="./images/main/4_container/3_section3/supporting_organization_logo/logo_10.svg"
+                                        alt="logo_10">
+                                    <img src="./images/main/4_container/3_section3/supporting_organization_logo/logo_11.svg"
+                                        alt="logo_11">
+                                    <img src="./images/main/4_container/3_section3/supporting_organization_logo/logo_12.svg"
+                                        alt="logo_12">
+                                    <img src="./images/main/4_container/3_section3/supporting_organization_logo/logo_13.svg"
+                                        alt="logo_13">
+                                    <img src="./images/main/4_container/3_section3/supporting_organization_logo/logo_14.svg"
+                                        alt="logo_14">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="text2">
+                        <div class="animated-title2">
+                            <div class="track2">
+                                <div class="content2">
+                                    <img src="./images/main/4_container/3_section3/supporting_organization_logo/logo_15.svg"
+                                        alt="logo_15">
+                                    <img src="./images/main/4_container/3_section3/supporting_organization_logo/logo_16.svg"
+                                        alt="logo_16">
+                                    <img src="./images/main/4_container/3_section3/supporting_organization_logo/logo_17.svg"
+                                        alt="logo_17">
+                                    <img src="./images/main/4_container/3_section3/supporting_organization_logo/logo_18.svg"
+                                        alt="logo_18">
+                                    <img src="./images/main/4_container/3_section3/supporting_organization_logo/logo_19.svg"
+                                        alt="logo_19">
+                                    <img src="./images/main/4_container/3_section3/supporting_organization_logo/logo_20.svg"
+                                        alt="logo_20">
+                                    <img src="./images/main/4_container/3_section3/supporting_organization_logo/logo_21.svg"
+                                        alt="logo_21">
+                                    <img src="./images/main/4_container/3_section3/supporting_organization_logo/logo_22.svg"
+                                        alt="logo_22">
+                                    <img src="./images/main/4_container/3_section3/supporting_organization_logo/logo_23.svg"
+                                        alt="logo_23">
+                                    <img src="./images/main/4_container/3_section3/supporting_organization_logo/logo_24.svg"
+                                        alt="logo_24">
+                                    <img src="./images/main/4_container/3_section3/supporting_organization_logo/logo_25.svg"
+                                        alt="logo_25">
+                                    <img src="./images/main/4_container/3_section3/supporting_organization_logo/logo_26.svg"
+                                        alt="logo_26">
+                                    <img src="./images/main/4_container/3_section3/supporting_organization_logo/logo_27.svg"
+                                        alt="logo_27">
+                                    <img src="./images/main/4_container/3_section3/supporting_organization_logo/logo_28.svg"
+                                        alt="logo_28">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div> <!--section3_wrap_f-->
+
+
+
+
+                <div class="section4_wrap"> <!--section4_wrap_s-->
+                    <div class="section4"> <!--section4_s-->
+                        <div class="section4_left"><strong>가디언즈의 <br> 소식이 궁금하신가요?</strong></div>
+                        <div class="section4_middle">
+                            <input type="text" class="name_input" placeholder="이름 입력">
+                            <input type="text" class="email_input" placeholder="이메일 입력">
+                        </div>
+                        <div class="section4_right">
+                            <button>소식받아보기</button>
+                        </div>
+                        <div class="boy_img">
+                            <img src="./images/main/4_container/4_section4/boy.svg" alt="boy_picture">
+                        </div>
+                        <p class="alarm">&ast; 소식 전달을 목적으로 이름, 이메일주소를 수집하며, 수신거부 시 까지 이용 ∙보유합니다.</p>
+                    </div> <!--section4_f-->
+                </div> <!--section4_wrap_f-->
+            </div><!--container_f-->
+
+            <div id="footer"> <!--footer_s-->
+                <div class="inner_footer"> <!--inner_footer_s-->
+                    <div class="footer_top"> <!--footer_top_s-->
+                        <ul class="footer_top_btn">
+                            <li><a href="#">오시는 길</a></li>
+                            <li><a href="#">이용약관</a></li>
+                            <li><a href="#">개인정보처리방침</a></li>
+                            <li><a href="#">이메일무단수집거부</a></li>
+                            <li><a href="#">기부금영수증 발급</a></li>
+                            <li><a href="#">국민권익위원회</a></li>
+                            <li><a href="#">사이트맵</a></li>
+                        </ul>
+                        <ul class="sns_icon">
+                            <li><a href="#"><img src="./images/main/5_footer/icon_facebook.png" alt="icon_facebook"></a>
+                            </li>
+                            <li><a href="#"><img src="./images/main/5_footer/icon_instar.png" alt="icon_instar"></a>
+                            </li>
+                            <li><a href="#"><img src="./images/main/5_footer/icon_twitter.png" alt="icon_twitter"></a>
+                            </li>
+                            <li><a href="#"><img src="./images/main/5_footer/icon_youtube.png" alt="icon_youtube"></a>
+                            </li>
+                        </ul>
+                    </div> <!--footer_top_f-->
+
+                    <div class="footer_bottom">
+
+                        <div class="footer_text">
+                            <p>대표자 : 박소연</p>
+                            <p>사업자 등록번호 : 242-23-5453</p>
+                            <p>주소 : (우) 05243 울산시 중구 별빛로 5</p>
+                            <p>대표전화 1991-1004 후원문의 1991-1005 FAX 052-434-1991 </p>
+                            <p>©COPYRIGHT 1991 M-LETTER. ALL RIGHTS RESERVED.</p>
+                        </div>
+
+                        <div class="footer_logo">
+                            <a href="./index.html"><img src="./images/main/5_footer/white_logo.svg" alt="white_logo"></a>
+                        </div>
+                    </div> <!--footer_bottom-->
+                </div> <!--footer_inner_f-->
+                <hr class="custom-hr">
+            </div> <!--footer_f-->
+        </div> <!--wrap_f-->
+    </div> <!--world_background_wrap_f-->
+
+
+
+
+    <!--count_event-->
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!--js_open_source-->
+    <script src="./js/jquery-3.7.1.min.js"></script>
+    <!--js_script-->
+    <script src="./js/script.js"></script>
+    <!--AOS_script-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+
+</body>
+
+</html>
