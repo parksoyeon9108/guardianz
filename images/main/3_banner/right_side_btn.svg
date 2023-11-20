@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="39.516" height="61.074" viewBox="0 0 39.516 61.074">
+  <defs>
+    <filter id="패스_2826" x="0" y="0" width="39.516" height="61.074" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feFlood flood-color="#06aeff" flood-opacity="0.929"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="그룹_398" data-name="그룹 398" transform="translate(22604.598 23312.643)">
+    <g transform="matrix(1, 0, 0, 1, -22604.6, -23312.64)" filter="url(#패스_2826)">
+      <path id="패스_2826-2" data-name="패스 2826" d="M-18235.678-23319.729l21.85,21.568-21.85,21.85" transform="translate(18244.51 23327.56)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="4"/>
+    </g>
+  </g>
+</svg>
